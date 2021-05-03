@@ -1,0 +1,14 @@
+.header {
+    margin-top: 0;
+    grid-area: h;
+    background-color: cadetblue;
+}
+.header img {
+    width: 20px;
+}
+
+.loginBlock {
+    display: grid;
+    justify-content: end;
+
+}

@@ -1,0 +1,20 @@
+.user {
+    display: block;
+    max-width: 1920px;
+}
+
+.userPhoto {
+    width: 200px;
+    height: 200px;
+}
+
+.pageStr {
+    padding: 5px;
+
+}
+
+.selectedPage {
+    font-weight: 700;
+    cursor: pointer;
+}
+

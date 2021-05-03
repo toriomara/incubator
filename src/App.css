@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: "h h"
+                       "n c";
+  grid-gap: 0.5rem;
+  margin: 0 auto;
+  width: 90%;
+  height: 100vh;
+}
+
+.app-wrapper-content {
+  /*display: grid;*/
+  grid-area: c;
+  background-color: cornsilk;
+}
+
+.item a {
+  color: red;
+}
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +63,4 @@
     transform: rotate(360deg);
   }
 }
+*/
